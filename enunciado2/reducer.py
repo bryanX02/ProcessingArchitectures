@@ -6,6 +6,7 @@ prev = ""
 count = 0
 
 for line in sys.stdin:
+
     key, value = line.split('\t')
     
     if key == prev:

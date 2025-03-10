@@ -3,8 +3,15 @@
 import sys
 import re
 
+# 2. Count URL Access Frequency
+# The Common Log Format (CLF) is a standardized text file format used by web servers when generating access logs.
+# Find the 20 most accessed URLs in a web server from its access log. Ignore the query component of the URLs, which is preceded by a question mark.
+
+
 for line in sys.stdin:
-    words = re.sub(r'\W+', ' ', line).split()
+
+    # Split the line into words
+    words = line.split(' ')
     
-    for word in words:
-        print(word.lower() + "\t1")
+    # Print the url and the number 1
+    print(words[6] + "\t1")
