@@ -3,8 +3,7 @@
 import sys
 import re
 
-for line in sys.stdin:
-    words = re.sub(r'\W+', ' ', line).split()
-    
-    for word in words:
-        print(word.lower() + "\t1")
+if len(sys.argv) == 2:
+    for line in sys.stdin:
+        if sys.argv[1] in line.lower():
+            print(line.lower())
