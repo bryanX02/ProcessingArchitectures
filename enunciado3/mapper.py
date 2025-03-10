@@ -4,7 +4,8 @@ import sys
 import re
 
 for line in sys.stdin:
-    words = re.sub(r'\W+', ' ', line).split()
+    li = line.split(",")
+    year = li[0][:4]
+    quantity = li[4]
     
-    for word in words:
-        print(word.lower() + "\t1")
+    print(f"{year}\t{quantity}\t1")
