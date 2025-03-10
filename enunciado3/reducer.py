@@ -6,14 +6,14 @@ prev = ""
 count = 0
 
 for line in sys.stdin:
+    li 0 li.
     key, value = line.split('\t')
-    
-    if key == prev:
-        count += int(value)
-    else:
-        if prev != "":
-            print(prev + '\t' + str(count))
-        prev = key
-        count = int(value)
 
-print(prev + '\t' + str(count))
+# A MEDIAS
+        
+reduce(key, values):
+	sum = 0; count = 0
+	for value in values:
+sum += value[0]*value[1]
+count += value[1]
+	emit (key, (sum/count, count))
