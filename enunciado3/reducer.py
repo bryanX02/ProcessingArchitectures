@@ -2,18 +2,24 @@
 
 import sys
 
-prev = ""
+key =""
+prev=""
+suma = 0
 count = 0
-
 for line in sys.stdin:
-    li 0 li.
-    key, value = line.split('\t')
+	li = line.strip().split("\t")
+	key = li[0]
+	value = (float(li[1]), int(li[2]))
+	if key != prev:
+		if prev!="":
+			print(f"{prev}\t{suma/count}\t{count}")
+		prev = key
+		count = 0
+		suma = 0
 
-# A MEDIAS
+	suma += value[0]*value[1]
+	count += value[1]
+
+print(f"{prev}\t{suma/count}\t{count}")	
+
         
-reduce(key, values):
-	sum = 0; count = 0
-	for value in values:
-sum += value[0]*value[1]
-count += value[1]
-	emit (key, (sum/count, count))
