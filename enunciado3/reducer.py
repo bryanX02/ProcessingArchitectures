@@ -21,5 +21,3 @@ for line in sys.stdin:
 	count += value[1]
 
 print(f"{prev}\t{suma/count}\t{count}")	
-
-        
