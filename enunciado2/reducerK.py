@@ -19,8 +19,6 @@ top_urls.sort(key=lambda x: x[1], reverse=True)
 for key, value in top_urls[:20]:
     print(f"{key}\t{value}")
 
-# Ejecución: python3 mapper.py < access_log-small/access_log-small | sort | python3 reducer.py | python3 mapperK.py | python3 reducerK.py
- 
 '''
 mapper.py extrae las URLs y emite url\t1.
 reducer.py suma las ocurrencias de cada URL.
