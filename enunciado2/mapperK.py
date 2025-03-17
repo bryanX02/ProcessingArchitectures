@@ -1,24 +1,25 @@
-#!/usr/bin/python
+#!/usr/bin/python3
 
 import sys
-import re
 
-# filtering top 20 urls
-def setup():
-    list = []
+# Lista para almacenar las URLs y sus frecuencias
+top_urls = []
 
-def map():
-    for line in sys.stdin:
-        key, value = line.split('\t')
+# Leer entrada desde stdin
+for line in sys.stdin:
+    key, value = line.strip().split('\t')
+    value = int(value)
+    
+    # Insertar ordenadamente en la lista
+    top_urls.append((key, value))
+    top_urls.sort(key=lambda x: x[1], reverse=True)
+    
+    # Mantener solo las 20 entradas más grandes
+    if len(top_urls) > 20:
+        top_urls.pop()
 
-        #insert record in list sorted by f
-        list.append((key, int(value)))
-        list.sort(key=lambda x: x[1], reverse=True)
-        #truncate list to top K
-        if len(list) > 20:
-            list.pop()
+# Imprimir las 20 URLs más frecuentes
+for key, value in top_urls:
+    print(f"{key}\t{value}")
 
-def cleanup():
-    for value in list:
-        print(value[0] + '\t' + str(value[1]))
 
