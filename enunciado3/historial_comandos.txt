@@ -1,0 +1,1000 @@
+  952  ./alternateB -n 10
+  953  make
+  954  ./alternateB -n 10
+  955  make
+  956  ./alternateB -n 10
+  957  make
+  958  ./alternateB -n 10
+  959  ./alternateB -n 11
+  960  ./alternateB -n 12
+  961  make
+  962  ./alternateB -n 12
+  963  ./alternateB -n 11
+  964  ./alternateB -n 10
+  965  make
+  966  ./alternateB -n 10
+  967  ./alternateB -n 12
+  968  ./alternateB -n 11
+  969  ./alternateB -n 10
+  970  ./alternateB -n 11
+  971  ./alternateB -n 10
+  972  make
+  973  ./alternateB -n 10
+  974  make
+  975  ./alternateB -n 10
+  976  make
+  977  ./alternateB -n 10
+  978  ./alternateB -n 11
+  979  make
+  980  ./alternateB -n 11
+  981  ./alternateB -n 10
+  982  make
+  983  ./alternateB -n 10
+  984  ./alternateB -n 11
+  985  ./alternateB -n 12
+  986  git commit -m "parteB funciona"
+  987  make clean
+  988  ls
+  989  git add alternateB.c
+  990  git commit -m "parteB funciona"
+  991  git push origin main
+  992  git pull origin main
+  993  git commit
+  994  git pull
+  995  clear
+  996  cd ..
+  997  ls
+  998  git push origin main
+  999  git add .
+ 1000  git status
+ 1001  git commit -m "cambios para que no me de error"
+ 1002  git pull origin main
+ 1003  git push origin main
+ 1004  ls
+ 1005  git pull origin main
+ 1006  /bin/python3 /home/dacoleto/.vscode-server/extensions/ms-python.python-2024.22.2-linux-x64/python_files/printEnvVariablesToFile.py /home/dacoleto/.vscode-server/extensions/ms-python.python-2024.22.2-linux-x64/python_files/deactivate/bash/envVars.txt
+ 1007  cd Paralelismo/
+ 1008  ls
+ 1009  git status
+ 1010  git pull origin main
+ 1011  git push origin main
+ 1012  code .
+ 1013  cd ..
+ 1014  ls
+ 1015  cd pd2/
+ 1016  ls
+ 1017  cd 1090_riddle/
+ 1018  ls
+ 1019  code .
+ 1020  uv run src/main.py 
+ 1021  /bin/python3 /home/dacoleto/.vscode-server/extensions/ms-python.python-2024.22.2-linux-x64/python_files/printEnvVariablesToFile.py /home/dacoleto/.vscode-server/extensions/ms-python.python-2024.22.2-linux-x64/python_files/deactivate/bash/envVars.txt
+ 1022  ls
+ 1023  cd Paralelismo
+ 1024  code .
+ 1025  CD practica1.2/ejercicio3/
+ 1026  ls
+ 1027  cd practica1.2/ejercicio3/
+ 1028  ls
+ 1029  echo London > in.txt
+ 1030  echo Barcelona >> in.txt
+ 1031  echo Madrid >> in.txt
+ 1032  echo Berlin >> in.txt
+ 1033  echo Lisbon >> in.txt
+ 1034  cat in.txt 
+ 1035  make
+ 1036  ./pc-files -i in.txt 
+ 1037  make
+ 1038  ./pc-files -i in.txt 
+ 1039  gdb -tui ./pc-files
+ 1040  make
+ 1041  gdb -tui ./pc-files
+ 1042  make
+ 1043  gdb -tui ./pc-files
+ 1044  make
+ 1045  gdb -tui ./pc-files
+ 1046  make
+ 1047  gdb -tui ./pc-files
+ 1048  make
+ 1049  gdb -tui ./pc-files
+ 1050  make
+ 1051  gdb -tui ./pc-files
+ 1052  cd pd2/
+ 1053  cd ../Paralelismo/
+ 1054  ls
+ 1055  code .
+ 1056  cd practica1.2/ejercicio3/
+ 1057  ls
+ 1058  make clean
+ 1059  make
+ 1060  ./pc-files -i in.txt 
+ 1061  ./pc-files -i in.txt
+ 1062  ls
+ 1063  make
+ 1064  clear
+ 1065  ./pc-files -i in.txt 
+ 1066  gdb -tui ./pc-files
+ 1067  make
+ 1068  ./pc-files -i in.txt 
+ 1069  make
+ 1070  clear
+ 1071  ./pc-files -i in.txt 
+ 1072  make
+ 1073  ./pc-files -i in.txt 
+ 1074  make
+ 1075  ./pc-files -i in.txt 
+ 1076  ./pc-files
+ 1077  make
+ 1078  ./pc-files
+ 1079  ./pc-files -i in.txt 
+ 1080  make
+ 1081  ./pc-files -i in.txt 
+ 1082  make
+ 1083  ./pc-files -i in.txt 
+ 1084  male
+ 1085  make
+ 1086  ./pc-files -i in.txt 
+ 1087  make
+ 1088  ./pc-files -i in.txt 
+ 1089  gdb -tui ./pc-files
+ 1090  make
+ 1091  ./pc-files -i in.txt 
+ 1092  make
+ 1093  ./pc-files -i in.txt 
+ 1094  make
+ 1095  ./pc-files -i in.txt 
+ 1096  ./pc-files -i in.txt 
+ 1097  gdb -tui ./pc-files
+ 1098  make
+ 1099  ./pc-files -i in.txt 
+ 1100  make
+ 1101  ./pc-files -i in.txt 
+ 1102  make
+ 1103  ./pc-files -i in.txt 
+ 1104  make
+ 1105  ./pc-files -i in.txt 
+ 1106  make
+ 1107  ./pc-files -i in.txt 
+ 1108  make
+ 1109  ./pc-files -i in.txt 
+ 1110  make
+ 1111  ./pc-files -i in.txt 
+ 1112  make
+ 1113  ./pc-files -i in.txt 
+ 1114  make
+ 1115  ./pc-files -i in.txt 
+ 1116  make
+ 1117  ./pc-files -i in.txt 
+ 1118  make
+ 1119  ./pc-files -i in.txt 
+ 1120  make
+ 1121  ./pc-files -i in.txt 
+ 1122  make
+ 1123  ./pc-files -i in.txt 
+ 1124  cd Paralelismo/
+ 1125  code .
+ 1126  cd Paralelismo/
+ 1127  code .
+ 1128  cd practica1.2/ejercicio3/
+ 1129  ls
+ 1130  make clean
+ 1131  ls
+ 1132  make
+ 1133  ./pc-files -i in.txt 
+ 1134  make
+ 1135  ./pc-files -i in.txt 
+ 1136  make
+ 1137  ./pc-files -i in.txt 
+ 1138  ,make
+ 1139  clear
+ 1140  make
+ 1141  ./pc-files -i in.txt 
+ 1142  make
+ 1143  ./pc-files -i in.txt 
+ 1144  make
+ 1145  ./pc-files -i in.txt 
+ 1146  make
+ 1147  ./pc-files -i in.txt 
+ 1148  make
+ 1149  ./pc-files -i in.txt 
+ 1150  make
+ 1151  ./pc-files -i in.txt 
+ 1152  make
+ 1153  ./pc-files -i in.txt 
+ 1154  make
+ 1155  ./pc-files -i in.txt 
+ 1156  make
+ 1157  ./pc-files -i in.txt 
+ 1158  make
+ 1159  ./pc-files -i in.txt 
+ 1160  make
+ 1161  ./pc-files -i in.txt 
+ 1162  make
+ 1163  ./pc-files -i in.txt 
+ 1164  make
+ 1165  ./pc-files -i in.txt 
+ 1166  make
+ 1167  ./pc-files -i in.txt 
+ 1168  make
+ 1169  ./pc-files -i in.txt 
+ 1170  cmake
+ 1171  make
+ 1172  ./pc-files -i in.txt 
+ 1173  make
+ 1174  ./pc-files -i in.txt 
+ 1175  make
+ 1176  ./pc-files -i in.txt 
+ 1177  make
+ 1178  ./pc-files -i in.txt 
+ 1179  make
+ 1180  ./pc-files -i in.txt 
+ 1181  clear
+ 1182  make
+ 1183  ./pc-files -i in.txt 
+ 1184  make
+ 1185  ./pc-files -i in.txt 
+ 1186  ./pc-files -o outt.txt
+ 1187  clear
+ 1188  make
+ 1189  ./pc-files -i in.txt 
+ 1190  make clean
+ 1191  make
+ 1192  ./pc-files -i in.txt 
+ 1193  git status
+ 1194  make clean
+ 1195  ls
+ 1196  git status
+ 1197  git add .
+ 1198  git status
+ 1199  git commit -m "practica1.2 - ejercicio 3 funciona -- quitar printf"
+ 1200  git push origin main
+ 1201  cd practica1.2/ejercicio2/
+ 1202  cd parteA
+ 1203  ls
+ 1204  make
+ 1205  ./alternateA -n 10
+ 1206  ./alternateA -n 11
+ 1207  ./alternateA -n 12
+ 1208  cd ..
+ 1209  cd parteB
+ 1210  make
+ 1211  ./alternateA -n 12
+ 1212  ./alternateB -n 12
+ 1213  make
+ 1214  ./alternateB -n 12
+ 1215  ./alternateB -n 11
+ 1216  ./alternateB -n 12
+ 1217  ./alternateB -n 10
+ 1218  make
+ 1219  ./alternateB -n 10
+ 1220  ./alternateB -n 12
+ 1221  make
+ 1222  ./alternateB -n 10
+ 1223  ./alternateB -n 12
+ 1224  make
+ 1225  ./alternateB -n 12
+ 1226  ./alternateB -n 11
+ 1227  ./alternateB -n 10
+ 1228  make
+ 1229  ./alternateB -n 10
+ 1230  ./alternateB -n 11
+ 1231  ./alternateB -n 12
+ 1232  make
+ 1233  ./alternateB -n 12
+ 1234  ./alternateB -n 11
+ 1235  ./alternateB -n 10
+ 1236  make
+ 1237  ./alternateB -n 12
+ 1238  ./alternateB -n 11
+ 1239  ./alternateB -n 10
+ 1240  make
+ 1241  ./alternateB -n 11
+ 1242  make
+ 1243  ./alternateB -n 10
+ 1244  ./alternateB -n 11
+ 1245  ./alternateB -n 12
+ 1246  make
+ 1247  ./alternateB -n 12
+ 1248  cd Paralelismo/
+ 1249  code .
+ 1250  git status
+ 1251  cd practica1.2/ejercicio2/
+ 1252  make clean
+ 1253  cd parteB
+ 1254  make clean
+ 1255  cd ../parteS
+ 1256  cd ../parteA
+ 1257  make clean
+ 1258  git status
+ 1259  cd ..
+ 1260  git add .
+ 1261  git commit -m "Modificado ejericio2 enseñado hoy al profe"
+ 1262  git pull origin main
+ 1263  git push origin main
+ 1264  make
+ 1265  cd practica1.2/ejercicio3/
+ 1266  ls
+ 1267  make
+ 1268  ./pc-files -i in.txt 
+ 1269  ./pc-files -i in.txt -o outer.txt
+ 1270  ./pc-files -o outer.txt
+ 1271  make clean
+ 1272  cat out.txt 
+ 1273  echo London > in.txt
+ 1274  echo Barcelona >> in.txt
+ 1275  echo Madrid >> in.txt
+ 1276  echo Berlin >> in.txt
+ 1277  echo Lisbon >> in.txt
+ 1278  echo Paris >> in.txt
+ 1279  cat in.txt 
+ 1280  ./pc-files -i in.txt 
+ 1281  make
+ 1282  ./pc-files -i in.txt 
+ 1283  cat out.txt 
+ 1284  make clean
+ 1285  make
+ 1286  ./pc-files 
+ 1287  cat out.txt 
+ 1288  make clean
+ 1289  cd ..
+ 1290  git status
+ 1291  git add .
+ 1292  git commit -m "ejercicio 3 entregado y terminado"
+ 1293  git push origin main
+ 1294  ls
+ 1295  cd Paralelismo/
+ 1296  git pull origin main
+ 1297  code .
+ 1298  git pull origin main
+ 1299  git status
+ 1300  git fetch --all
+ 1301  git reset --hard origin/main 
+ 1302  git clean -fd
+ 1303  python /home/dacoleto/.vscode-server/extensions/ms-python.python-2025.0.0-linux-x64/python_files/printEnvVariablesToFile.py /home/dacoleto/.vscode-server/extensions/ms-python.python-2025.0.0-linux-x64/python_files/deactivate/bash/envVars.txt
+ 1304  uv sync
+ 1305  uv run src/visualization/map_visualization.py 
+ 1306  uv pip install subprocess
+ 1307  uv run src/visualization/map_visualization.py 
+ 1308  chromium-browser
+ 1309  sudo apt install chromium-browser
+ 1310  uv run src/visualization/map_visualization.py 
+ 1311  sudo apt install chromium-browser
+ 1312  uv run src/visualization/map_visualization.py 
+ 1313  cd pd2/
+ 1314  cd 1090_riddle/
+ 1315  git pull origin main
+ 1316  code .
+ 1317  ls
+ 1318  cd Paralelismo/
+ 1319  ls
+ 1320  code .
+ 1321  ls
+ 1322  git pull
+ 1323  cd practica1.3/ejercicio2/
+ 1324  ls
+ 1325  cd practica1.3/ejercicio2/
+ 1326  ls
+ 1327  clean
+ 1328  clear
+ 1329  mkfifo myfifo
+ 1330  ./fifotest -f myfifo -s
+ 1331  clear
+ 1332  make
+ 1333  clear
+ 1334  ./fifotest -f myfifo -s
+ 1335  clear
+ 1336  ./fifotest -f myfifo -s < test.txt
+ 1337  strace ./fifotest -f myfifo -s
+ 1338  ./fifotest -f myfifo -s
+ 1339  clean
+ 1340  clear
+ 1341  make
+ 1342  cd ..
+ 1343  cd ejercicio3/
+ 1344  clear
+ 1345  make
+ 1346  clear
+ 1347  mkfifo /tmp/fifo0
+ 1348  mkfifo /tmp/fifo1
+ 1349  mkfifo fifo0 fifo1
+ 1350  clear
+ 1351  ./chat Fulanito fifo0 fifo1 
+ 1352  clear
+ 1353  make
+ 1354  +clear
+ 1355  clear
+ 1356  ./chat Fulanito fifo0 fifo1 
+ 1357  clear
+ 1358  make clean
+ 1359  make
+ 1360  clear
+ 1361  mkfifo fifo0 fifo1
+ 1362  make clear
+ 1363  rm fifo0 
+ 1364  rm fifo1 
+ 1365  make clean
+ 1366  clear
+ 1367  make
+ 1368  clear
+ 1369  mkfifo fifo0 fifo1
+ 1370  ./chat Fulanito fifo0 fifo1 
+ 1371  make
+ 1372  ./chat Fulanito fifo0 fifo1 
+ 1373  make
+ 1374  clear
+ 1375  ./chat Fulanito fifo0 fifo1 
+ 1376  make
+ 1377  clear
+ 1378  ./chat Fulanito fifo0 fifo1 
+ 1379  make
+ 1380  clear
+ 1381  ./chat Fulanito fifo0 fifo1 
+ 1382  stat fifo0
+ 1383  clear
+ 1384  make
+ 1385  ./chat Fulanito fifo0 fifo1 
+ 1386  make
+ 1387  make clean
+ 1388  make
+ 1389  ./chat Fulanito fifo0 fifo1 
+ 1390  clear
+ 1391  ./chat Fulanito fifo0 fifo1 
+ 1392  make
+ 1393  clear
+ 1394  ./chat Fulanito fifo0 fifo1 
+ 1395  clear
+ 1396  ./chat Fulanito fifo0 fifo1 
+ 1397  make
+ 1398  clear
+ 1399  ./chat Fulanito fifo0 fifo1 
+ 1400  clear
+ 1401  make
+ 1402  clear
+ 1403  ./chat Fulanito fifo0 fifo1 
+ 1404  clear
+ 1405  ./chat Fulanito fifo0 fifo1 
+ 1406  make
+ 1407  clear
+ 1408  ./chat Fulanito fifo0 fifo1 
+ 1409  make clean
+ 1410  make
+ 1411  clear
+ 1412  ./chat Fulanito fifo0 fifo1 
+ 1413  clear
+ 1414  make
+ 1415  clear
+ 1416  ./chat Fulanito fifo0 fifo1 
+ 1417  make
+ 1418  clear
+ 1419  ./chat Fulanito fifo0 fifo1 
+ 1420  make
+ 1421  ./chat Fulanito fifo0 fifo1 
+ 1422  make clean
+ 1423  rm fifo0 fifo1 
+ 1424  make
+ 1425  clear
+ 1426  ./chat Fulanito fifo0 fifo1 
+ 1427  clear
+ 1428  mkfifo fifo0 fifo1
+ 1429  ./chat Fulanito fifo0 fifo1 
+ 1430  git status
+ 1431  make clean
+ 1432  rm fifo0 fifo1 
+ 1433  ls
+ 1434  git status
+ 1435  cd ../ejercicio2/
+ 1436  make clean
+ 1437  cd ../ejercicio3/
+ 1438  git status
+ 1439  git add chat.c 
+ 1440  git commit -m "Chat completado y entregado -- porque se acababa el plazo aunque en teoria se puede hasta mañana --"
+ 1441  git push origin main
+ 1442  ./fifotest -f myfifo -r
+ 1443  clear
+ 1444  ./fifotest -f myfifo -r
+ 1445  strace ./fifotest -f myfifo -r
+ 1446  ./fifotest -f myfifo -r
+ 1447  strace ./fifotest -f myfifo -r
+ 1448  ./fifotest -f myfifo -r
+ 1449  clear
+ 1450  cd ../ejercicio3
+ 1451  clear
+ 1452  ./chat Menganito fifo1 fifo0 
+ 1453  clear
+ 1454  ./chat Menganito fifo1 fifo0 
+ 1455  clear
+ 1456  ./chat Menganito fifo1 fifo0 
+ 1457  clear
+ 1458  ./chat Menganito fifo1 fifo0 
+ 1459  clear
+ 1460  make
+ 1461  clear
+ 1462  ./chat Menganito fifo1 fifo0 
+ 1463  make
+ 1464  clear
+ 1465  ./chat Menganito fifo1 fifo0 
+ 1466  clear
+ 1467  ./chat Menganito fifo1 fifo0 
+ 1468  clear
+ 1469  ./chat Menganito fifo1 fifo0 
+ 1470  clear
+ 1471  ./chat Menganito fifo1 fifo0 
+ 1472  clear
+ 1473  ./chat Menganito fifo1 fifo0 
+ 1474  clear
+ 1475  ./chat Menganito fifo1 fifo0 
+ 1476  clear
+ 1477  ./chat Menganito fifo1 fifo0 
+ 1478  clear
+ 1479  ./chat Menganito fifo1 fifo0 
+ 1480  cclear
+ 1481  clear
+ 1482  ./chat Menganito fifo1 fifo0 
+ 1483  clear
+ 1484  ./chat Menganito fifo1 fifo0 
+ 1485  lscpu | "mmx|sse|avx"
+ 1486  lscpu | egrep "mmx|sse|avx"
+ 1487  cd Paralelismo/
+ 1488  ls
+ 1489  cd practica1.3/
+ 1490  ls
+ 1491  cd ..
+ 1492  code .
+ 1493  ls
+ 1494  mkdir AP
+ 1495  cd AP/
+ 1496  git clone https://github.com/bryanX02/ProcessingArchitectures.git
+ 1497  ls
+ 1498  cd ProcessingArchitectures/
+ 1499  ls
+ 1500  cd enunciado1/
+ 1501  ls
+ 1502  cd ../../
+ 1503  ls
+ 1504  cd ProcessingArchitectures/
+ 1505  code .
+ 1506  cd ../../Paralelismo/
+ 1507  ls
+ 1508  cd ..
+ 1509  cd AP/ProcessingArchitectures/
+ 1510  úv
+ 1511  uv
+ 1512  uv init
+ 1513  uv venv
+ 1514  source .venv/bin/activate
+ 1515  ls
+ 1516  python --version
+ 1517  where python
+ 1518  which python
+ 1519  python --version
+ 1520  rm -rf .venv/
+ 1521  uv venv
+ 1522  source .venv/bin/activate
+ 1523  source .venv/bin/deactivate.bat 
+ 1524  deactivate
+ 1525  source .venv/bin/deactivate.bat 
+ 1526  source .venv/bin/activate
+ 1527  cd enunciado1/
+ 1528  ls
+ 1529  nano input.txt
+ 1530  ls
+ 1531  python mapper.py < input.txt 
+ 1532  python3 mapper.py 
+ 1533  python3 mapper.py < input.txt 
+ 1534  uv pip install re
+ 1535  cat mapper.py | python mapper.py 
+ 1536  cat input.txt | python mapper.py magia
+ 1537  python3 mapper.py magia < input.txt 
+ 1538  python3 mapper.py MAGIA < input.txt 
+ 1539  git commit -m "Ejercicio 1 arreglado"
+ 1540  git add mapper.py input.txt 
+ 1541  git commit -m "Ejercicio 1 arreglado"
+ 1542  git push origin main
+ 1543  cd ..
+ 1544  cd ProcessingArchitectures/
+ 1545  cd enunciado3/
+ 1546  ls
+ 1547  python mapper.py < GOOG.csv 
+ 1548  python mapper.py < GOOG.csv | python reducer.py 
+ 1549  cd enunciado4/
+ 1550  ls
+ 1551  python mapper.py < ml-latest-small/ratings.csv 
+ 1552  python mapper.py < ml-latest-small/ratings.csv | sort
+ 1553  python mapper.py < ml-latest-small/ratings.csv | sort | python reducer.py
+ 1554  python mapper1.py < ml-latest-small/ratings.csv | sort | python reducer1.py > out.txt
+ 1555  python mapper1.py < ml-latest-small/ratings.csv | sort | python reducer1.py | sort  > out.txt
+ 1556  python mapper1.py < ml-latest-small/ratings.csv | sort | python reducer1.py | sort |
+ 1557  python mapper1.py < ml-latest-small/ratings.csv | sort | python reducer1.py | sort 
+ 1558  python mapper1.py < ml-latest-small/ratings.csv | sort | python reducer1.py | sort  > out.txt
+ 1559  python mapper1.py < ml-latest-small/ratings.csv | sort | python reducer1.py  > out.txt
+ 1560  python mapper1.py < ml-latest-small/ratings.csv python reducer1.py  > out.txt
+ 1561  python mapper1.py < ml-latest-small/ratings.csv | sort | python reducer1.py  > out.txt
+ 1562  python mapper1.py < ml-latest-small/ratings.csv | sort | python reducer1.py | python mapper2.py > out.txt 
+ 1563  python mapper1.py < ml-latest-small/ratings.csv | sort | python reducer1.py | python mapper2.py
+ 1564  python mapper1.py < ml-latest-small/ratings.csv | sort | python reducer1.py 
+ 1565  python mapper1.py < ml-latest-small/ratings.csv | sort | python reducer1.py | python mapper2.py
+ 1566  git status
+ 1567  git add reducer1.py mapper2.py mapper1.py mapper.py reducer.py ml-latest-small/
+ 1568  git commit -m "Ejercicio 4 funciona aparentemente"
+ 1569  git push origin main
+ 1570  cd enunciado3/
+ 1571  python mapper.py < GOOG.csv | python reducer.py 
+ 1572  python mapper.py < GOOG.csv 
+ 1573  python mapper.py < GOOG.csv | python reducer.py 
+ 1574  python mapper.py < GOOG.csv 
+ 1575  python mapper.py < GOOG.csv | python reducer.py 
+ 1576  python mapper.py < GOOG.csv > out.txt
+ 1577  python mapper.py < GOOG.csv | python reducer.py 
+ 1578  python mapper.py < GOOG.csv | python reducer.py > out.txt
+ 1579  python mapper.py < GOOG.csv | python reducer.py 
+ 1580  git status
+ 1581  git pull
+ 1582  git add mapper.py reducer.py GOOG.csv 
+ 1583  git commit -m "Ejercicio 3 funciona aparentemente"
+ 1584  git push origin main
+ 1585  python /home/dacoleto/.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/printEnvVariablesToFile.py /home/dacoleto/.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/deactivate/bash/envVars.txt
+ 1586  cd enunciado5/
+ 1587  ls
+ 1588  python mapper.py < Meteorite_Landings/Meteorite_Landings.csv 
+ 1589  ls
+ 1590  code AP/ProcessingArchitectures/
+ 1591  python /home/dacoleto/.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/printEnvVariablesToFile.py /home/dacoleto/.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/deactivate/bash/envVars.txt
+ 1592  cd enunciado4/
+ 1593  python mapper1.py < ml-latest-small/ratings.csv | python reducer1.py 
+ 1594  python mapper1.py < ml-latest-small/ratings.csv | sort | python reducer1.py | python mapper2.py 
+ 1595  ls
+ 1596  pwd
+ 1597  cd AP/ProcessingArchitectures/
+ 1598  ls
+ 1599  git pull
+ 1600  git status
+ 1601  git log
+ 1602  ls
+ 1603  cat enunciado1/input.txt 
+ 1604  cat enunciado1/mapper.py 
+ 1605  ls
+ 1606  code .
+ 1607  ls enunciado3/
+ 1608  ls enunciado4/
+ 1609  ls enunciado4/ml-latest-small/
+ 1610  head enunciado4/ml-latest-small/ratings.csv 
+ 1611  code .
+ 1612  ls
+ 1613  cd enunciado5/
+ 1614  ls
+ 1615  cat mapper.py 
+ 1616  cat reducer.py 
+ 1617  cd AP/ProcessingArchitectures/
+ 1618  cd enunciado4/
+ 1619  cat mapper1.py 
+ 1620  cat reducer1.py 
+ 1621  cd ..
+ 1622  ls
+ 1623  cd enunciado5/
+ 1624  ls
+ 1625  cd ..
+ 1626  cd Paralelismo/
+ 1627  ls
+ 1628  cd practica1.3/
+ 1629  ls
+ 1630  cd ejercicio3/
+ 1631  ls
+ 1632  cd ..
+ 1633  cd Paralelismo/
+ 1634  l
+ 1635  git pull
+ 1636  ls
+ 1637  çcd ficheros_p2-2/
+ 1638  cd ficheros_p2-2/
+ 1639  ls
+ 1640  cd Ejercicio1/
+ 1641  ls
+ 1642  cd ..
+ 1643  cd Ejercicio3/
+ 1644  ls
+ 1645  cd
+ 1646  cd Paralelismo/ficheros_p2-2/Ejercicio2/
+ 1647  ls
+ 1648  cd ../Ejercicio4/
+ 1649  ls
+ 1650  cd ../Ejercicio5/
+ 1651  ls
+ 1652  cd ..
+ 1653  ls
+ 1654  mkdir modulo1
+ 1655  mv practica1.1/ modulo1/
+ 1656  ls
+ 1657  mv practica1.2/ modulo1/
+ 1658  mv practica1.3/ modulo1/
+ 1659  ls
+ 1660  git status
+ 1661  ls
+ 1662  mkdir modulo2
+ 1663  mv ficheros_p2-2/ modulo2/
+ 1664  rm ficheros_p1-1.tar.gz 
+ 1665  ls
+ 1666  code .
+ 1667  ls
+ 1668  ls modulo2
+ 1669  ls modulo1/
+ 1670  ls
+ 1671  cd modulo1/
+ 1672  ls
+ 1673  cd ../modulo2/
+ 1674  ls
+ 1675  cd practica2.1/
+ 1676  ls
+ 1677  git status
+ 1678  git push origin main
+ 1679  source /opt/intel/oneapi/setvars.sh 
+ 1680  cd modulo2/practica2.1/Ejercicio5/
+ 1681  l
+ 1682  ls
+ 1683  cat extra.cpp 
+ 1684  make
+ 1685  cd Paralelismo/
+ 1686  ls
+ 1687  cd modulo2/
+ 1688  ls
+ 1689  cd practica2.1/
+ 1690  ls
+ 1691  cd Ejercicio3/ver1/
+ 1692  ls
+ 1693  cd ../../..
+ 1694  cs ../
+ 1695  cd ../
+ 1696  ls
+ 1697  git status
+ 1698  git add .
+ 1699  git commit -m "reorganizacion de las carpetas y subido esqueleto practica2.1"
+ 1700  git push origin main
+ 1701  code .
+ 1702  make
+ 1703  ./knn 
+ 1704  make clean
+ 1705  make
+ 1706  ./knn 
+ 1707  make clean
+ 1708  make
+ 1709  ls
+ 1710  cd Paralelismo/
+ 1711  cd modulo2/
+ 1712  wget -qO - https://apt.repos.intel.com/intel-gpg-keys/GPG-PUB-KEY-INTEL-SW-PRODUCTS.PUB | sudo gpg --dearmor -o /usr/share/keyrings/oneapi-archive-keyring.gpg
+ 1713  echo "deb [signed-by=/usr/share/keyrings/oneapi-archive-keyring.gpg] https://apt.repos.intel.com/oneapi all main" | sudo tee /etc/apt/sources.list.d/oneAPI.list
+ 1714  sudo apt update
+ 1715  wget -qO - https://apt.repos.intel.com/intel-gpg-keys/GPG-PUB-KEY-INTEL-SW-PRODUCTS.PUB | sudo gpg --dearmor -o /usr/share/keyrings/oneapi-archive-keyring.gpg
+ 1716  echo "deb [signed-by=/usr/share/keyrings/oneapi-archive-keyring.gpg] https://apt.repos.intel.com/oneapi all main" | sudo tee /etc/apt/sources.list.d/oneAPI.list
+ 1717  sudo apt update
+ 1718  sudo apt install intel-basekit
+ 1719  source /opt/intel/oneapi/setvars.sh
+ 1720  icpx --version
+ 1721  ls
+ 1722  cd practica2.1/Ejercicio5/
+ 1723  ls
+ 1724  code .
+ 1725  cd ../../../../Paralelismo/modulo2/practica2.1/Ejercicio3/
+ 1726  ls
+ 1727  ls ver1/
+ 1728  meld ver1/main.cc ver2/main.cc 
+ 1729  sudo apt install meld
+ 1730  meld ver1/main.cc ver2/main.cc 
+ 1731  ls
+ 1732  code Paralelismo/modulo2/practica2.1/Ejercicio5/
+ 1733  ls
+ 1734  ./knn 
+ 1735  make clean
+ 1736  make
+ 1737  ./knn 
+ 1738  source /opt/intel/oneapi/setvars.sh
+ 1739  make
+ 1740  ./knn 
+ 1741  source /opt/intel/oneapi/setvars.sh
+ 1742  cd Ejercicio5/
+ 1743  ls
+ 1744  make clean
+ 1745  make
+ 1746  cd ../ejercicio5/
+ 1747  make 
+ 1748  ./knn 
+ 1749  make clean
+ 1750  make 
+ 1751  ./knn 
+ 1752  cd ../Ejercicio5/
+ 1753  ls
+ 1754  ./knn 
+ 1755  make clean
+ 1756  ./knn 
+ 1757  make 
+ 1758  ./knn 
+ 1759  make clean
+ 1760  make 
+ 1761  ls
+ 1762  make clean
+ 1763  make 
+ 1764  ./knn 
+ 1765  make clean
+ 1766  make 
+ 1767  ./knn 
+ 1768  code Paralelismo/modulo2/practica2.1/
+ 1769  ls
+ 1770  cd practica2.1/
+ 1771  ls
+ 1772  git status
+ 1773  git add Ejercicio5/ ejercicio5/
+ 1774  git status
+ 1775  git commit -m "Esqueleto y prueba ejercicio 5"
+ 1776  git push origin main
+ 1777  ls
+ 1778  cd Ejercicio5/
+ 1779  make clean
+ 1780  make
+ 1781  source /opt/intel/oneapi/setvars.sh
+ 1782  make clean
+ 1783  make
+ 1784  make clean
+ 1785  make
+ 1786  make clean
+ 1787  make
+ 1788  make clean
+ 1789  make
+ 1790  make clean
+ 1791  make
+ 1792  ./knn 
+ 1793  git pull
+ 1794  git status
+ 1795  make clean
+ 1796  git status
+ 1797  git stash
+ 1798  git pull
+ 1799  make
+ 1800  ./knn 
+ 1801  ls
+ 1802  cd Paralelismo/
+ 1803  ls
+ 1804  cd modulo2/
+ 1805  code .
+ 1806  cd practica2.1/
+ 1807  code .
+ 1808  cd enunciado4/
+ 1809  cd ../enunciado5/
+ 1810  ls
+ 1811  ls Meteorite_Landings/
+ 1812  python mapper.py < Meteorite_Landings/Meteorite_Landings.csv 
+ 1813  clear
+ 1814  python mapper.py < Meteorite_Landings/Meteorite_Landings.csv 
+ 1815  python mapper.py < Meteorite_Landings/Meteorite_Landings.csv | sort
+ 1816  clear
+ 1817  python mapper.py < Meteorite_Landings/Meteorite_Landings.csv | sort > a.txt
+ 1818  python mapper.py < Meteorite_Landings/Meteorite_Landings.csv | sort | python reducer.py 
+ 1819  python mapper.py < Meteorite_Landings/Meteorite_Landings.csv | sort > a.txt
+ 1820  git status
+ 1821  git add mapper.py reducer.py ../enunciado3/mapper.py ../enunciado3/reducer.py 
+ 1822  git commit -m "Ej3 y Ej5 acabados"
+ 1823  git pull
+ 1824  git config pull.rebase true
+ 1825  git pull
+ 1826  git stash
+ 1827  git pull
+ 1828  git pushç
+ 1829  git push
+ 1830  git pull
+ 1831  cd ../enunciado3/
+ 1832  ls
+ 1833  python mapper3.py < GOOG.csv | sort | python reducer3.py 
+ 1834  python /home/dacoleto/.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/printEnvVariablesToFile.py /home/dacoleto/.vscode-server/extensions/ms-python.python-2025.2.0-linux-x64/python_files/deactivate/bash/envVars.txt
+ 1835  code AP/ProcessingArchitectures/
+ 1836  git pull
+ 1837  git status
+ 1838  cd Ejercicio5/
+ 1839  make clean
+ 1840  git pull
+ 1841  git status
+ 1842  make
+ 1843  source /opt/intel/oneapi/setvars.sh
+ 1844  make
+ 1845  cd ../ejercicio5/
+ 1846  ls
+ 1847  make clean
+ 1848  make
+ 1849  ./knn 
+ 1850  make clean
+ 1851  make
+ 1852  ./knn 
+ 1853  cd ..
+ 1854  cd ejercicio5/
+ 1855  make
+ 1856  make clean
+ 1857  make
+ 1858  ./knn 
+ 1859  make
+ 1860  ./knn 
+ 1861  cd ../Ejercicio5/
+ 1862  ls
+ 1863  make clean
+ 1864  make
+ 1865  ./knn 
+ 1866  git stash
+ 1867  git pull
+ 1868  make
+ 1869  ./knn 
+ 1870  ls
+ 1871  code Paralelismo/modulo2/practica2.1/
+ 1872  cd Paralelismo/
+ 1873  cd modulo2/
+ 1874  cd practica2.1/
+ 1875  ls
+ 1876  cd Ejercicio3/
+ 1877  meld ver0/main.cc ver1/main.cc 
+ 1878  git status
+ 1879  cd Ejercicio5/
+ 1880  make clean
+ 1881  git status
+ 1882  git stash
+ 1883  git pull
+ 1884  cd enunciado3/
+ 1885  python mapper3.py < Nasdaq100/ | sort | python reducer3.py 
+ 1886  python mapper3.py < Nasdaq100/ | sort | 
+ 1887  python mapper3.py < Nasdaq100/ | sort
+ 1888  python mapper3.py < Nasdaq100/Nasdaq100_ILMN.csv | sort | python reducer3.py 
+ 1889  python mapper3.py < Nasdaq100/Nasdaq100_IDXX.csv | sort | python reducer3.py 
+ 1890  python mapper3.py < Nasdaq100/Nasdaq100_HON.csv | sort | python reducer3.py 
+ 1891  python mapper3.py < Nasdaq100/Nasdaq100_GOOGL.csv | sort | python reducer3.py 
+ 1892  python mapper3.py < Nasdaq100/Nasdaq100_GILD.csv | sort | python reducer3.py 
+ 1893  python mapper3.py < Nasdaq100/Nasdaq100_GFS.csv | sort | python reducer3.py 
+ 1894  python mapper3.py < Nasdaq100/Nasdaq100_GEHC.csv | sort | python reducer3.py 
+ 1895  python mapper3.py < Nasdaq100/Nasdaq100_FTNT.csv | sort | python reducer3.py 
+ 1896  python mapper3.py < Nasdaq100/Nasdaq100_FAST.csv | sort | python reducer3.py 
+ 1897  python mapper3.py < Nasdaq100/Nasdaq100_FANG.csv | sort | python reducer3.py 
+ 1898  python mapper3.py < Nasdaq100/Nasdaq100_EXC.csv | sort | python reducer3.py 
+ 1899  python mapper3.py < Nasdaq100/Nasdaq100_EA.csv | sort | python reducer3.py 
+ 1900  python mapper3.py < Nasdaq100/Nasdaq100_DXCM.csv | sort | python reducer3.py 
+ 1901  python mapper3.py < Nasdaq100/Nasdaq100_DLTR.csv | sort | python reducer3.py 
+ 1902  python mapper3.py < Nasdaq100/Nasdaq100_DDOG.csv | sort | python reducer3.py 
+ 1903  python mapper3.py < Nasdaq100/Nasdaq100_DASH.csv | sort | python reducer3.py 
+ 1904  python mapper3.py < Nasdaq100/Nasdaq100_CTSH.csv | sort | python reducer3.py 
+ 1905  python mapper3.py < Nasdaq100/Nasdaq100_CTAS.csv | sort | python reducer3.py 
+ 1906  python mapper3.py < Nasdaq100/Nasdaq100_CSX.csv | sort | python reducer3.py 
+ 1907  python mapper3.py < Nasdaq100/Nasdaq100_CSGP.csv | sort | python reducer3.py 
+ 1908  python mapper3.py < Nasdaq100/Nasdaq100_CSCO.csv | sort | python reducer3.py 
+ 1909  python mapper3.py < Nasdaq100/Nasdaq100_CSGP.csv | sort | python reducer3.py 
+ 1910  python mapper3.py < Nasdaq100/Nasdaq100_CSCO.csv | sort | python reducer3.py 
+ 1911  python mapper3.py < Nasdaq100/Nasdaq100_CRWD.csv | sort | python reducer3.py 
+ 1912  python mapper3.py < Nasdaq100/Nasdaq100_CPRT.csv | sort | python reducer3.py 
+ 1913  python mapper3.py < Nasdaq100/Nasdaq100_COST.csv | sort | python reducer3.py 
+ 1914  python mapper3.py < Nasdaq100/Nasdaq100_CMCSA.csv | sort | python reducer3.py 
+ 1915  python mapper3.py < Nasdaq100/Nasdaq100_CHTR.csv | sort | python reducer3.py 
+ 1916  python mapper3.py < Nasdaq100/Nasdaq100_CEG.csv | sort | python reducer3.py 
+ 1917  python mapper3.py < Nasdaq100/Nasdaq100_CDW.csv | sort | python reducer3.py 
+ 1918  python mapper3.py < Nasdaq100/Nasdaq100_CDNS.csv | sort | python reducer3.py 
+ 1919  python mapper3.py < Nasdaq100/Nasdaq100_CCEP.csv | sort | python reducer3.py 
+ 1920  python mapper3.py < Nasdaq100/Nasdaq100_BKR.csv | sort | python reducer3.py 
+ 1921  python mapper3.py < Nasdaq100/Nasdaq100_BKNG.csv | sort | python reducer3.py 
+ 1922  python mapper3.py < Nasdaq100/Nasdaq100_BIIB.csv | sort | python reducer3.py 
+ 1923  python mapper3.py < Nasdaq100/Nasdaq100_AZN.csv | sort | python reducer3.py 
+ 1924  python mapper3.py < Nasdaq100/Nasdaq100_AMZN.csv | sort | python reducer3.py 
+ 1925  python mapper3.py < Nasdaq100/Nasdaq100_AMGN.csv | sort | python reducer3.py 
+ 1926  python mapper3.py < Nasdaq100/Nasdaq100_AMD.csv | sort | python reducer3.py 
+ 1927  python mapper3.py < Nasdaq100/Nasdaq100_AMAT.csv | sort | python reducer3.py 
+ 1928  python mapper3.py < Nasdaq100/Nasdaq100_AEP.csv | sort | python reducer3.py 
+ 1929  python mapper3.py < Nasdaq100/Nasdaq100_ADSK.csv | sort | python reducer3.py 
+ 1930  python mapper3.py < Nasdaq100/Nasdaq100_ADP.csv | sort | python reducer3.py 
+ 1931  python mapper3.py < Nasdaq100/Nasdaq100_ADI.csv | sort | python reducer3.py 
+ 1932  python mapper3.py < Nasdaq100/Nasdaq100_ADBE.csv | sort | python reducer3.py 
+ 1933  python mapper3.py < Nasdaq100/Nasdaq100_ABNB | sort | python reducer3.py 
+ 1934  python mapper3.py < Nasdaq100/Nasdaq100_AAPL.csv | sort | python reducer3.py 
+ 1935  python mapper3.py < Nasdaq100/Nasdaq100_ABNB | sort | python reducer3.py 
+ 1936  python mapper3.py < Nasdaq100/Nasdaq100_ABNB | sort 
+ 1937  python mapper3.py < Nasdaq100/Nasdaq100_ABNB
+ 1938  python mapper3.py < Nasdaq100/Nasdaq100_ABNB | sort | python reducer3.py 
+ 1939  python mapper3.py < Nasdaq100/Nasdaq100_AAPL.csv 
+ 1940  python mapper3.py < Nasdaq100/Nasdaq100_ABNB.csv 
+ 1941  python mapper3.py < Nasdaq100/Nasdaq100_ABNB.csv | grep 0
+ 1942  python mapper3.py < Nasdaq100/Nasdaq100_ABNB | sort | python reducer3.py 
+ 1943  python mapper3.py < Nasdaq100/Nasdaq100_ABNB.csv | sort | python reducer3.py 
+ 1944  python mapper3.py < Nasdaq100/Nasdaq100_AAPL.csv 
+ 1945  python mapper3.py < Nasdaq100/Nasdaq100_ABNB.csv | sort | python reducer3.py 
+ 1946  python mapper3.py < Nasdaq100/Nasdaq100_ABNB.csv | grep 0
+ 1947  python mapper3.py < Nasdaq100/Nasdaq100_ABNB | sort | python reducer3.py 
+ 1948  python mapper3.py < Nasdaq100/Nasdaq100_ABNB.csv | sort | python reducer3.py 
+ 1949  python mapper3.py < Nasdaq100/Nasdaq100_ABNB | sort | python reducer3.py 
+ 1950  python mapper3.py < Nasdaq100/Nasdaq100_ABNB.csv | sort | python reducer3.py 
+ 1951  history > historial_comandos.txt
