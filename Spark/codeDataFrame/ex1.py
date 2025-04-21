@@ -1,6 +1,7 @@
 from pyspark.sql import SparkSession
 import pyspark.sql.functions as F
 import sys
+import os 
 
 spark = SparkSession.builder.appName("Distributed Grep").getOrCreate()
 
@@ -16,7 +17,12 @@ regex_pattern = f"\\b(?i){search_word}\\b"
 
 grep_results = df.filter(F.col("value").rlike(regex_pattern))
 
-grep_results.write.mode("overwrite").text("./Spark/codeDataFrame/output")
+output_dir = "./Spark/codeDataFrame/output/"
+if not os.path.exists(output_dir):
+    os.makedirs(output_dir)
+
+grep_results.write.mode("overwrite").text(output_dir)
+
 
 
 # df = df.withColumn("lowerwords", F.split(F.lower(F.col("value")), " "))
