@@ -1,33 +1,44 @@
-from pyspark import SparkConf, SparkContext
+from pyspark.sql import SparkSession
 import sys
+import re
 
-if "spark" in locals():
-    spark.stop()  # Detiene la sesión actual
-    del spark
+# Iniciamos la sesión de Spark y obtenemos el SparkContext
+spark = SparkSession.builder.appName("Count URL Access Frequency RDD").getOrCreate()
+sc = spark.sparkContext
 
-conf = SparkConf().setAppName('CountURL').setMaster("local[*]").set("spark.hadoop.fs.defaultFS", "file:///")
-sc = SparkContext.getOrCreate(conf)
+# Verificamos y obtenemos la entrada y la salida
+if len(sys.argv) != 3:
+    print("Error: Se requieren 2 argumentos: <ruta_entrada> <ruta_salida>")
+    sys.exit(-1)
 
-input_file = sys.argv[1]
+input_path = sys.argv[1]  # gs://cloudandbigdata/access_log
+output_path = sys.argv[2] # gs://BUCKET/assg2/output2rdd
 
+# Leemos los archivos de log como un RDD de líneas
+lines_rdd = sc.textFile(input_path)
 
-lines = sc.textFile(input_file).coalesce(8)
-# Lista para almacenar las URLs y sus frecuencias
-top_urls = []
+# Reducimos el número de particiones si es necesario
+lines_rdd = lines_rdd.coalesce(4)
 
-# Leer entrada desde stdin
-for line in lines:
-    key, value = sc.parallelize(line.split())\
-        .map(lambda x: (x, 1)) .reduce(lambda x, y: x + y)
+# Expresión regular para extraer la URL base del log CLF
+log_pattern = re.compile(r'\"[A-Z]+ ([^?\s]*)(?:\?[^ ]*)? [A-Z]+/[\d\.]+\"')
 
-    # Insertar ordenadamente en la lista
-    top_urls.append((key, value))
-    top_urls.sort(key=lambda x: x[1], reverse=True)
+# Función para extraer la URL de una línea de log
+def extract_url(line):
+    match = log_pattern.search(line)
+    return [match.group(1)] if match else []
 
-    # Mantener solo las 20 entradas más grandes
-    if len(top_urls) > 100:
-        top_urls.pop()
+# Extraemos las URLs usando flatMap (descarta líneas sin match)
+urls_rdd = lines_rdd.flatMap(extract_url)
 
-# Imprimir las 20 URLs más frecuentes
-for key, value in top_urls:
-    print(f"{key}\t{value}")
+# Contamos la frecuencia de cada URL: (URL, 1) -> reduce sumando contadores
+url_counts_rdd = urls_rdd.map(lambda url: (url, 1)) \
+                       .reduceByKey(lambda count1, count2: count1 + count2)
+
+# Obtenemos las 100 URLs más frecuentes, en el lambda x = (url, count)
+top_100_list = url_counts_rdd.takeOrdered(100, key=lambda x: -x[1]) 
+
+# Formateamos la lista resultante a "url count"
+formatted_top_100 = [f"{url} {count}" for url, count in top_100_list]
+
+sc.parallelize(formatted_top_100, 1).saveAsTextFile(output_path)
