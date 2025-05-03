@@ -1,11 +1,17 @@
 from pyspark.sql import SparkSession
 import pyspark.sql.functions as F
+import sys
 import os 
 
-spark = SparkSession.builder.appName("Taxi").getOrCreate()
+spark = SparkSession.builder.appName("Taxi DF").getOrCreate()
 
+if len(sys.argv) != 3:
+    print("Error: Se requieren 2 argumentos: <ruta_entrada_csv> <ruta_salida>")
+    sys.exit(-1)
+input_path = sys.argv[1]  # Ej: gs://.../yellow_tripdata_2019*.csv o local ./data/data6/yellow_tripdata_2019-01.csv
+output_path = sys.argv[2] # Ej: gs://BUCKET/assg2/output6rdd
 
-df = spark.read.csv("./data/data6/yellow_tripdata_2019-01.csv", header=True, inferSchema=True, sep=",")
+df = spark.read.csv(input_path, header=True, inferSchema=True, sep=",")
 df = df.coalesce(4)
 
 
@@ -17,11 +23,11 @@ total_por_hora = df_with_hour.groupBy("pickup_hour") \
 # 5. Ordenar por la hora
 total_por_hora_ordenado = total_por_hora.orderBy("total_ganado")
 
-output_dir = "./Spark/codeDataFrame/output6/"
-if not os.path.exists(output_dir):
-    os.makedirs(output_dir)
 
-total_por_hora_ordenado .write.mode("overwrite").option("sep", " ").csv(output_dir, header=False)
+if not os.path.exists(output_path):
+    os.makedirs(output_path)
+
+total_por_hora_ordenado .write.mode("overwrite").option("sep", " ").csv(output_path, header=False)
 
 
 

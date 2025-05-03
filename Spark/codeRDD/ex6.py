@@ -12,7 +12,7 @@ input_path = sys.argv[1]  # Ej: gs://.../yellow_tripdata_2019*.csv o local ./dat
 output_path = sys.argv[2] # Ej: gs://BUCKET/assg2/output6rdd
 
 lines_rdd = sc.textFile(input_path)
-lines_rdd = lines_rdd.coalesce(4)
+lines_rdd = lines_rdd.coalesce(8)
 
 # Filtramos la cabecera (asumiendo que empieza con "VendorID,")
 data_lines_rdd = lines_rdd.filter(lambda line: not line.startswith("VendorID,"))

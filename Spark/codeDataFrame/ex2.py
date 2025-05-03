@@ -3,10 +3,16 @@ import pyspark.sql.functions as F
 import sys
 import os 
 
-spark = SparkSession.builder.appName("Count URL Access Frequency").getOrCreate()
+spark = SparkSession.builder.appName("Count URL Access Frequency DF").getOrCreate()
 
+if len(sys.argv) != 3:
+    print("Error: Se requieren 2 argumentos: <ruta_entrada> <ruta_salida>")
+    sys.exit(-1)
 
-df = spark.read.text("./data/access_log-small/access_log-small")
+input_path = sys.argv[1]  # gs://cloudandbigdata/access_log
+output_path = sys.argv[2] # gs://BUCKET/assg2/output2rdd
+
+df = spark.read.text(input_path)
 df = df.coalesce(4)
 
 
@@ -26,8 +32,8 @@ url_counts = url_df.groupBy("url").count() \
     .limit(100)
 
 
-output_dir = "./Spark/codeDataFrame/output2/"
-if not os.path.exists(output_dir):
-    os.makedirs(output_dir)
 
-url_counts.write.mode("overwrite").option("sep", " ").csv(output_dir, header=False)
+if not os.path.exists(output_path):
+    os.makedirs(output_path)
+
+url_counts.write.mode("overwrite").option("sep", " ").csv(output_path, header=False)
